@@ -1,0 +1,144 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7e8b1; /* Soft cream background */
+    color: #000000;
+}
+
+.header {
+    background: #018839; /* Green gradient */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+
+.tagline {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #018839; /* Green background */
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Image Styling */
+.image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+/* Video Styling */
+.video {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Links */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.video-section {
+    text-align: center;
+    margin: 40px 0;
+    background-color: #ffe998; /* Light background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-section h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.video-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background-color: #fffbe6;
+}
+
+#game {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #444;
+    margin: 20px auto;
+    background-color: #f7e7c6;
+}
+
+#mouse, #cheese, #trap {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#mouse {
+    background-color: #888;
+}
+
+#cheese {
+    background-color: #ffcc00;
+}
+
+#trap {
+    background-color: #cc0000;
+}
+
+h1 {
+    color: #ff9900;
+}
